@@ -16,6 +16,13 @@
   .hero-area .overlay :nth-child(1) {
     height: 294px !important; } }
 
+@media (max-width: 1200px) and (min-width: 991px){
+  .service {
+    padding: 40px 73px !important
+  }
+
+}
+
 @media screen and (min-width: 1920px) {
   .hero-area .contents {
     padding: 280px 0 390px; }
@@ -93,6 +100,9 @@
     margin-top: 20px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .service {
+    padding: 60px 21px !important
+  }
   .hero-area .contents h2 {
     color: #173863;
     font-size: 40px !important; }
